@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container bg-[#2f2f2f] w-[100vw] h-[100vh] flex justify-center items-center">
+        <div class="form-container-main w-[50vw] h-[70vh] shadow-slot-950 flex justify-center items-center  flex-col rounded-md  bg-[#001427]">
+            
+            <h3 class="login-form text-white mb-12 text-3xl font-semibold">Login Form</h3>
+
+            <form class="login-form-container flex flex-col gap-2 round-md text-white w-[40vw]">
+                <div class="mb-4">
+                    <label class="block text-sm font-medium text-gray-400" for="name">Username or Email</label>
+                    <input class="mt-1 p-2 w-full border rounded-md text-gray-800" type="text" placeholder="Enter your username or email"/>
+                </div>
+
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium text-gray-400">Password</label>
+                    <input type="Password" class="mt-1 p-2 w-full border rounded-md text-gray-800" placeholder="Enter your password"/>
+                </div>
+
+                <div class="mb-4">
+                    <button class="[background:linear-gradient(144deg,#af40ff,#5b42f3_50%,#00ddeb)] text-white px-6 py-2 font-bold rounded-md hover:opacity-80"
+                    type="submit" type="button">Submit</button>
+                </div>
+            </form>
+
+        </div>
+        
+
+    </div>
+    <script src="https://kit.fontawesome.com/c3171e834c.js" crossorigin="anonymous"></script>
+</body>
+</html>
